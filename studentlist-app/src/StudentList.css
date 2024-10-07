@@ -1,0 +1,25 @@
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; 
+  }
+  
+  .student-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 15px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+  }
+  
+  .student-item:hover {
+    background: #e0e7ff; 
+  }
+  
+  .student-actions {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px;
+  }
+  
